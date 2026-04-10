@@ -9,16 +9,16 @@
 -- 1 Conducteur
 -- ------------------------------------------------------------
 INSERT INTO drivers (name, email, phone, car, available_seats)
-VALUES ('Alice Martin', 'alice.martin@movesmart.com', '0601020304', 'Peugeot 308 – AB-123-CD', 3);
+VALUES ('Douala Manga Bell', 'doualamanga@movesmart.com', '0601020304', 'BYD Atto 3 – AB-123-CD', 3);
 
 -- ------------------------------------------------------------
 -- 2 Trajets proposés par Alice (driver_id = 1)
 -- ------------------------------------------------------------
 INSERT INTO trips (departure, destination, departure_time, available_seats, driver_id)
-VALUES ('Paris – Gare de Lyon', 'Lyon – Part-Dieu', '2026-04-15 07:30:00', 3, 1);
+VALUES ('Garoua – Gare Routiere', 'Bafoussam – Marche B', '2026-04-15 07:30:00', 3, 1);
 
 INSERT INTO trips (departure, destination, departure_time, available_seats, driver_id)
-VALUES ('Paris – Défense', 'Orléans – Centre', '2026-04-16 08:00:00', 2, 1);
+VALUES ('Abidjan – Cocody', 'Abuja – Maitama', '2026-04-16 08:00:00', 2, 1);
 
 -- ============================================================
 -- TODO: improve validation – dans une vraie application, ces données

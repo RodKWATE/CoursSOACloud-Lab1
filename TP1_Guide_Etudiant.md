@@ -112,8 +112,8 @@ Vous devez voir une réponse JSON similaire à :
 [
   {
     "id": 1,
-    "departure": "Paris – Gare de Lyon",
-    "destination": "Lyon – Part-Dieu",
+    "departure": "Garoua – Gare Routiere",
+    "destination": "Bafoussam – Marche B",
     "departureTime": "2026-04-15T07:30:00",
     "availableSeats": 3,
     "driver": null
@@ -346,10 +346,10 @@ Utiliser Postman pour tester chacun des endpoints REST de l'application et compr
 
 ```json
 {
-  "name": "Claire Fontaine",
-  "email": "claire.fontaine@movesmart.com",
+  "name": "Thomas Sankara",
+  "email": "thomas.sankara@movesmart.com",
   "phone": "0612345678",
-  "car": "Renault Zoe – EL-456-CT",
+  "car": "Faso 101 – EL-456-CT",
   "availableSeats": 4
 }
 ```
@@ -369,8 +369,8 @@ Utiliser Postman pour tester chacun des endpoints REST de l'application et compr
 
 ```json
 {
-  "name": "David Moreau",
-  "email": "david.moreau@movesmart.com",
+  "name": "Votre_Nom Votre_prenom",
+  "email": "votre_Nom.votre_prenom@movesmart.com",
   "phone": "0698765432"
 }
 ```
@@ -388,7 +388,7 @@ Après avoir créé le conducteur (TEST 2), exécutez :
 | Méthode | `GET` |
 | URL | `http://localhost:8080/api/drivers` |
 
-**Résultat attendu :** Tableau contenant **Alice Martin** (données initiales) + **Claire Fontaine** (que vous venez de créer)
+**Résultat attendu :** Tableau contenant **Douala Manga Bell** (données initiales) + **Thomas Sankara** (que vous venez de créer)
 
 ---
 
@@ -643,7 +643,7 @@ GET http://localhost:8080/api/trips/99  → que se passe-t-il ? est-ce le bon co
 3. Dans [data.sql](src/main/resources/data.sql), ajoutez la description dans les INSERT :
    ```sql
    INSERT INTO trips (departure, destination, departure_time, available_seats, driver_id, description)
-   VALUES ('Paris – Gare de Lyon', 'Lyon – Part-Dieu', '2026-04-15 07:30:00', 3, 1, 'Trajet non-fumeur');
+   VALUES ('Garoua – Gare Routiere', 'Bafoussam – Marche B', '2026-04-15 07:30:00', 3, 1, 'Trajet non-fumeur');
    ```
 
 4. Testez avec `GET /api/trips` → le champ `description` doit apparaître dans le JSON

@@ -92,10 +92,12 @@ A. SDK du projet → doit être JDK 17
 File → Project Structure → Project
     SDK : Java 17  (C:\Program Files\Java\jdk-17.0.1)
     Language level : 17
+    
 B. Compilation → doit pointer vers JDK 17
 File → Settings → Build, Execution, Deployment
     → Compiler → Java Compiler
     → Project bytecode version : 17
+    
 C. Annotation Processing → doit être activé pour Lombok
 File → Settings → Build, Execution, Deployment
     → Compiler → Annotation Processors

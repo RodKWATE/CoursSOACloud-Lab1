@@ -115,10 +115,10 @@ L'application démarre sur le port **8080**.
 curl -X POST http://localhost:8080/api/drivers \
   -H "Content-Type: application/json" \
   -d '{
-    "name": "Alice Martin",
-    "email": "alice@movesmart.com",
+    "name": "Douala Manga Bell",
+    "email": "doualamanga@movesmart.com",
     "phone": "0601020304",
-    "car": "Peugeot 308",
+    "car": "BYD Atto 3",
     "availableSeats": 3
   }'
 ```
@@ -144,8 +144,8 @@ Une fois l'application lancée :
 
 Au démarrage, `data.sql` insère automatiquement :
 
-- **1 conducteur** — Alice Martin
-- **2 trajets** — Paris→Lyon et Paris→Orléans
+- **1 conducteur** — Douala Manga Bell
+- **2 trajets** — Garoua→Bafoussam et Abidjan→Abuja
 
 ---
 

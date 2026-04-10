@@ -45,7 +45,9 @@ public class Trip {
      * FETCH.LAZY : le conducteur n'est chargé que si on y accède explicitement
      *              (bonne pratique pour éviter les requêtes SQL inutiles).
      */
-    @ManyToOne(fetch = FetchType.LAZY)
+    // Avant
+
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "driver_id")
     private Driver driver;
 

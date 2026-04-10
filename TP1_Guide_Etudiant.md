@@ -440,7 +440,7 @@ Complétez ce tableau dans votre rapport :
 
 **Q7.** Quelle est la différence sémantique entre `200 OK` et `201 Created` ? Pourquoi est-il important d'utiliser le bon code de statut ?
 
-**Q8.** Que se passe-t-il si vous redémarrez l'application après avoir créé Claire Fontaine ? Retrouvez-vous le conducteur dans la liste ? Pourquoi ?
+**Q8.** Que se passe-t-il si vous redémarrez l'application après avoir créé Thomas Sankara ? Retrouvez-vous le conducteur dans la liste ? Pourquoi ?
 
 ## Capture d'écran à inclure dans le rapport
 

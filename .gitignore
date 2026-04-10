@@ -1,0 +1,52 @@
+# ============================================================
+# .gitignore — Projet Spring Boot / Maven
+# ============================================================
+
+# --- Compilation Java ---
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# --- Maven ---
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# --- Eclipse ---
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# --- VS Code ---
+.vscode/
+
+# --- Spring Boot ---
+spring-shell.log
+
+# --- Logs ---
+*.log
+logs/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Variables d'environnement (ne jamais committer) ---
+.env
+*.env.local
